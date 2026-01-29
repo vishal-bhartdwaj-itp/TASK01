@@ -128,5 +128,6 @@ input[type="text"] {
 }
 
 .container a{
-  text-decoration:  none;
+  padding-top: 22px;
+  color: aliceblue;
 }
