@@ -1,6 +1,6 @@
 # My Website
  
-This project is a simple website built using semantic HTML, CSS, and JavaScript. It includes a homepage, an About page, and a Contact page.
+This project is a simple website built using semantic HTML & CSS. It includes a homepage, an About page, and a Contact page.
  
 ## Project Structure
  
