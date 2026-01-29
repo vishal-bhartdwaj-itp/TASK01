@@ -131,3 +131,14 @@ input[type="text"] {
   padding-top: 22px;
   color: aliceblue;
 }
+
+h1{
+  color: #ffff;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.indexP{
+  color: #ffff;
+}
