@@ -1,0 +1,132 @@
+.nav {
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    overflow: hidden; 
+}
+
+.nav a {
+    display: inline-block; 
+    color: rgb(247, 241, 241);
+    background-color: #007BFF;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: #928484;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 40px;
+  background-color: #abbaba;
+  color: black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  display: block;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: black;
+}
+   
+body{
+    background-image: url("bg_image.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: black;          
+}
+.contact {
+  color: white;
+  font-size: 18px;
+  margin: 20px 0 10px 40px;
+  max-width: 600px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 300px;
+  padding: 12px;
+  margin: 15px 0 0 40px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="text"] {
+  width: 220px;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+
+.button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #45a049;  /* Darker green */
+    transform: scale(1.05);     /* Slight zoom */
+}
+
+/* Active (click) effect */
+.button:active {
+    background-color: #3e8e41;
+    transform: scale(0.98);
+}
+
+/* Disabled state */
+.button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;              
+  margin-left: 40px;
+}
+
+.container{
+  display: flex;
+  margin-top: 150px;
+
+}
+
+.container a{
+  text-decoration:  none;
+}
